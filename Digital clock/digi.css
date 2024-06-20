@@ -1,0 +1,34 @@
+
+.body{
+    background-color: rgb(197, 39, 131);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 90px;
+}
+.whole{
+    border: solid white 5px;
+    padding: 30px;
+}
+
+@media(max-width:670px){
+    .body{
+        font-size: 45px;
+    }
+    .whole{
+        padding: 15px;
+    }
+    
+}
+
+@media(max-width:340px){
+    .body{
+        font-size: 35px;
+    }
+    .whole{
+        padding: 12px;
+    }
+    
+}
